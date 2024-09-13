@@ -1,0 +1,101 @@
+@charset "utf=8";
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.all{
+    width: 1920px;
+    margin: 30px auto;
+    
+}
+.all .header{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.all .header img{
+    padding-bottom: 20px;
+}
+.all .header .text{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 0 140px;
+}
+
+.all .mein{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.all .mein .item{
+    position: relative
+}
+.all .mein .item .text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 40px;
+}
+.all .mein .item .text h1{
+    margin-bottom: 23px;
+}
+
+.all .section01{
+    margin-top: 100px;
+    background-color: #ededed;
+    padding: 100px 0;
+    width: 1280px;
+    margin: 0 auto;
+}
+.all .section01 h2{
+    width: 100%;
+}
+.all .section01 .list{
+    display: flex;
+    align-items: center;
+}
+.all .section01 img{
+    border-radius: 20px;
+    width: 735px;
+    height: 400px;
+    display: block;
+}
+.all .section01 .list .text ul{
+    display: flex;
+    column-gap: 8px;
+}
+
+.all .section02{
+    width: 1280px;
+    margin: 0 auto;
+}
+.all .section02 .item01{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.all .section02 .item01 ul{
+    display: flex;
+    column-gap: 25px;
+}
+.all .section02 .item02 {
+    display: flex;
+    justify-content: space-between;
+}
